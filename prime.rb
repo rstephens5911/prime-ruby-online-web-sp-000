@@ -2,6 +2,7 @@ def prime?(int)
   range = [1..100]
 
   range.each do |num|
+    numb = num.to_i
     if int <= 1
       return false
     elsif int % num.to_i == 0
