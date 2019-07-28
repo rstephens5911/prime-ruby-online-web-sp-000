@@ -4,8 +4,8 @@ def prime?(int)
   elsif (2..int).any? do |i|
       int % i == 0
       return false
-    end
   else
       return true
+    end
     end
   end
