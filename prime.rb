@@ -3,9 +3,9 @@ def prime?(int)
 
   range.each do |num|
     if int / num == 1 || int / num == -1 && int % num != 0
-      return true
-    else
       return false
+    else
+      return true
     end
   end
 end
