@@ -5,7 +5,7 @@ def prime?(int)
     numb = num.to_i
     if int <= 1
       return false
-    elsif int % num.to_i == 0
+    elsif int % numb == 0
       return false
     else
       return true
