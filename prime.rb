@@ -4,7 +4,7 @@ def prime?(int)
   range.each do |num|
     if int <= 1
       return false
-    elsif int % num == 0
+    elsif int % num.to_i == 0
       return false
     else
       return true
