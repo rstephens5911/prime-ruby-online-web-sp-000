@@ -1,5 +1,5 @@
 def prime?(int)
-  range = [1..10]
+  range = [1..100]
 
   range.each do |num|
     if int <= 1
